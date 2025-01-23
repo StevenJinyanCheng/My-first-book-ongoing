@@ -216,7 +216,7 @@ int main() {
 
 浮点数的方法，因为有精度问题，所以并不需要一直查直到`l >= r`，只要`r - l <= 允许精度`就可以了。
 
-练习：
+练习：洛谷[P1024](https://www.luogu.com.cn/problem/P1024) [P3382](https://www.luogu.com.cn/problem/P3382)
 
 ## 算法数据结构
 
