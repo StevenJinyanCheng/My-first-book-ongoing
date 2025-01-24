@@ -582,14 +582,14 @@ int bfs_search_num(int n){
 堆可以用来堆排序，时间复杂度$O(n \times \log(n))$。  
 **基础操作：**  
 
-1. 维护堆 把节点`p`放到正确位置。
-2. 加入节点 把节点`p`加入堆顶部，再从下到上维护。
+1. 构建堆 把节点`p`放到正确位置。
+2. 加入节点 把节点`p`加入堆顶部，再从下到上构建。
 3. 堆顶部节点 不用多说
-4. 删除顶部节点 删除顶部节点，再从上到下维护堆。
+4. 删除顶部节点 删除顶部节点，再从上到下构建堆。
 具体实现见[OIer_DFLJ](https://www.luogu.com/user/1228191)的[这篇文章](https://www.luogu.com/article/873rkxy1)。
 
 ---
 
 ## 结束语
 
-本文为“智慧结晶”，由[$\texttt{\color{Blue}{INeedToLearnCoding}}$](https://www.luogu.com/user/1351963)编写。
+本文为“智慧结晶”，由[$\texttt{\color{Green}{ILearnedSomeCoding}}$](https://www.luogu.com/user/1351963)编写。
